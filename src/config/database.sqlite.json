@@ -1,0 +1,8 @@
+{
+    "engine": "sqlLite",
+    "host": "",
+    "port": "",
+    "database": "dataprotect.db",
+    "user": "",
+    "pass": ""
+}

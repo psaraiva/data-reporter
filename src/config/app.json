@@ -1,0 +1,7 @@
+{
+    "name": "Data Protect",
+    "version": "0.0.1",
+    "domain": "localhost",
+    "port": "3333",
+    "dbengine": "postgres"
+}
