@@ -27,7 +27,7 @@ The app using two databases, **SQLite** or **PortgreSQL**, to change database en
 ### Configuration Docker DataBases
 Warning: All commands should **executed** in the **root folder project**.
 
-#### Postgress
+#### PostgreSQL
 - `docker-compose -f Docker/postgres/docker-compose.yml up -d`
 - `docker cp db/db_script/postgres.sql datareporter_postgres:/docker-entrypoint-initdb.d/dump.sql`
 - `docker exec -it datareporter_postgres psql -h localhost -U postgres -f docker-entrypoint-initdb.d/dump.sql`
